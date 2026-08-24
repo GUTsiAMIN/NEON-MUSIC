@@ -1,4 +1,3 @@
-```html
 <!doctype html>
 <html lang="fa" dir="rtl">
 <head>
@@ -66,10 +65,7 @@
 
     <label class="search-inline">
         <span class="sr-only">جستجو</span>
-        <input
-            id="header-search"
-            placeholder="جستجوی آهنگ، خواننده یا آلبوم..."
-        >
+        <input id="header-search" placeholder="جستجوی آهنگ، خواننده یا آلبوم...">
     </label>
 
     <button
@@ -85,7 +81,6 @@
 </header>
 
 <aside class="sidebar glass" aria-label="دسترسی سریع">
-
     <a class="side-link" data-tip="خانه" href="index.html">⌂</a>
     <a class="side-link" data-tip="جستجو" href="search.html">⌕</a>
     <a class="side-link" data-tip="آهنگ‌ها" href="songs.html">♫</a>
@@ -94,7 +89,6 @@
     <a class="side-link" data-tip="هنرمندان" href="artists.html">♙</a>
     <a class="side-link" data-tip="سبک‌ها" href="categories.html">✦</a>
     <a class="side-link" data-tip="تماس با ما" href="contact.html">✉</a>
-
 </aside>
 
 <main id="page"></main>
@@ -107,12 +101,9 @@
 </nav>
 
 <footer class="footer">
-
     <div>
         <strong>NEON MUSIC</strong>
-        <p>
-            اگه از سایت خوشتون اومد، سایت رو با دوستانتون به اشتراک بذارید ❤️
-        </p>
+        <p>اگه از سایت خوشتون اومد، سایت رو با دوستانتون به اشتراک بذارید ❤️</p>
     </div>
 
     <div class="footer-links">
@@ -121,7 +112,6 @@
         <a href="privacy.html">حریم خصوصی</a>
         <a href="terms.html">قوانین سایت</a>
     </div>
-
 </footer>
 
 <audio
@@ -134,27 +124,16 @@
 
     <div class="now">
 
-        <img
-            id="player-cover"
-            alt="کاور آهنگ"
-        >
+        <img id="player-cover" alt="کاور آهنگ">
 
         <div class="now-text">
-
-            <div
-                id="player-title"
-                class="now-title"
-            >
+            <div id="player-title" class="now-title">
                 هنوز آهنگی انتخاب نشده
             </div>
 
-            <div
-                id="player-artist"
-                class="muted"
-            >
+            <div id="player-artist" class="muted">
                 نئون موزیک
             </div>
-
         </div>
 
     </div>
@@ -163,49 +142,25 @@
 
         <div class="control-row">
 
-            <button
-                id="shuffle"
-                aria-label="پخش تصادفی"
-            >
-                ⇄
-            </button>
+            <button id="shuffle" aria-label="پخش تصادفی">⇄</button>
 
-            <button
-                id="prev"
-                aria-label="قبلی"
-            >
-                ⏮
-            </button>
+            <button id="prev" aria-label="قبلی">⏮</button>
 
             <button
                 id="play-toggle"
                 class="main-play"
                 aria-label="پخش یا توقف"
-            >
-                ▶
-            </button>
+            >▶</button>
 
-            <button
-                id="next"
-                aria-label="بعدی"
-            >
-                ⏭
-            </button>
+            <button id="next" aria-label="بعدی">⏭</button>
 
-            <button
-                id="repeat"
-                aria-label="تکرار"
-            >
-                🔁
-            </button>
+            <button id="repeat" aria-label="تکرار">🔁</button>
 
         </div>
 
         <div class="progress-row">
 
-            <span id="current-time">
-                0:00
-            </span>
+            <span id="current-time">0:00</span>
 
             <input
                 id="progress"
@@ -216,9 +171,7 @@
                 aria-label="موقعیت آهنگ"
             >
 
-            <span id="duration">
-                0:00
-            </span>
+            <span id="duration">0:00</span>
 
         </div>
 
@@ -230,9 +183,7 @@
             id="mute"
             class="icon-btn"
             aria-label="بی‌صدا"
-        >
-            🔊
-        </button>
+        >🔊</button>
 
         <input
             id="volume"
@@ -254,27 +205,16 @@
 
 </section>
 
-<!-- اطلاعات آهنگ‌ها -->
 <script src="data.js"></script>
-
-<!-- انیمیشن‌های سایت -->
 <script src="animations.js"></script>
 
-<!-- کتابخانه خواندن اطلاعات MP3 و Embedded Cover -->
+<!-- Embedded MP3 Cover Reader -->
 <script src="https://cdn.jsdelivr.net/npm/jsmediatags@3.9.5/dist/jsmediatags.min.js"></script>
 
-<!-- سیستم پخش صدا -->
 <script src="audio.js"></script>
-
-<!-- کنترل‌های پلیر -->
 <script src="player.js"></script>
-
-<!-- SEO -->
 <script src="seo.js"></script>
-
-<!-- منطق اصلی سایت -->
 <script src="app.js"></script>
 
 </body>
 </html>
-```
