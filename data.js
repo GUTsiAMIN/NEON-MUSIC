@@ -1,20 +1,23 @@
-const SITE={
-    name:'NEON MUSIC',
-    telegram:'@YOUR_TELEGRAM_ID'
+const SITE = {
+    name: 'NEON MUSIC',
+    telegram: '@YOUR_TELEGRAM_ID'
 };
 
-const DATA={
-    songs:[
+const DATA = {
+    songs: [
         {
-            id:'sweet',
-            title:'SWEET',
-            artist:'unkdown',
-            album:'thank u, next',
-            audio:'assets/audio/7rings.mp3'
+            id: 'sweet',
+            title: 'SWEET',
+            artist: 'ناشناس',
+            album: '',
+            category: '',
+            audio: 'assets/audio/SWEET.mp3',
+            cover: ''
         }
     ],
-    playlists:[],
-    artists:[],
-    albums:[],
-    categories:[]
+
+    playlists: [],
+    artists: [],
+    albums: [],
+    categories: []
 };
